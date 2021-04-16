@@ -8,7 +8,7 @@ Damit das Plugin weitere Produkte anzeigt, muss der Controller zuallererst die E
 
 # Schritt Nr. 1
 
-Führen Sie über die Administration eine Integration aus. Sie erhalten zwei wichtige Infos:
+Führen Sie über die Shopware Administration eine Integration aus. Sie erhalten zwei wichtige Infos:
 
 1. client_id
 2. client_secret
@@ -79,6 +79,8 @@ Die Administration ist über die angezeigte URL erreichbar:
 Sie öffnen Settings => System => Plugins => Discount collection => config. => aktiviere showInStorefront bzw. den Schalter
 
 und speichere die Konfiguration ab.
+
+![storefront config](https://brianstemplats.site/assets/images/portfolio_imgs/storefront_config.jpeg)
 
 FERTIG!
 
