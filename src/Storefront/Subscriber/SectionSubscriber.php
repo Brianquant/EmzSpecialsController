@@ -60,7 +60,7 @@ class SectionSubscriber implements EventSubscriberInterface
         $criteria = new Criteria();
         $criteria->addAssociation('country');
         $criteria->addFilter(new EqualsFilter('active', '1'));
-        $criteria->setLimit(5);
+        $criteria->setLimit(4);
 
         return $this->shopFinderRepository->search($criteria, $context)->getEntities();
     }
